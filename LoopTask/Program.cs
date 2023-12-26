@@ -27,7 +27,7 @@ namespace LoopTask
                 arr[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            //First way
+            //first way
             for (int i = 0; i < arr.Length; i++)
             {
                 for (int j = i; j < arr.Length; j++)
@@ -42,7 +42,7 @@ namespace LoopTask
             }
             Console.WriteLine($"Minimum qiymat x Maximum qiymat = {arr[0] * arr[5]}");
 
-            //Second way
+            //second way
             int min = arr[0];
             int max = 0;
             for (int i = 1;i < arr.Length; i++)
